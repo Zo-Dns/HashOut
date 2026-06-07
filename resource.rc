@@ -1,0 +1,33 @@
+#include <windows.h>
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "app.manifest"
+1 ICON "icon.ico"
+
+// ======================================================
+// Version Information
+// ======================================================
+1 VERSIONINFO
+FILEVERSION     2,2,0,0
+PRODUCTVERSION  2,2,0,0
+FILEOS          0x40004
+FILETYPE        0x1
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904B0"
+        {
+            VALUE "CompanyName",      "Sumer-Link"
+            VALUE "FileDescription",  "HashOut - Digital Fingerprint Extractor"
+            VALUE "FileVersion",      "2.2.0.0"
+            VALUE "InternalName",     "HashOut"
+            VALUE "LegalCopyright",   "Copyright (C) 2026 Ahmed Al-Bayati"
+            VALUE "OriginalFilename", "HashOut.exe"
+            VALUE "ProductName",      "HashOut"
+            VALUE "ProductVersion",   "2.2.0.0"
+            VALUE "Comments",         "MD5, SHA-1, SHA-256, SHA-512 Hash Calculator"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0409, 0x04B0
+    }
+}
